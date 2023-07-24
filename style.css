@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: skyblue;
+    min-height: 100vh;
+}
+
+
+.note {
+    width: 300px;
+    height: 300px;
+    margin: 70px 20px;
+    /* padding: 10px; */
+    background-color: white;
+}
+
+.note textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.note_top {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.note_top i {
+    margin: 5px;
+    cursor: pointer;
+}
+
+#addNote {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+#addNote:hover {
+    transform: scale(1.2);
+}
